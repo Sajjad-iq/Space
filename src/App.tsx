@@ -30,7 +30,7 @@ function App() {
           <BurgerNav />
           <Navigation />
           <Routes>
-            <Route path='/Space' element={<Home />} />
+            <Route path='/travel-to-space' element={<Home />} />
             <Route path='/DESTINATION' element={<DESTINATION />} />
             <Route path='/CREW' element={<Crew />} />
             <Route path='/TECHNOLOGY' element={<TECHNOLOGY />} />
