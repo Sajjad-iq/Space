@@ -1,25 +1,44 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import Home from './containers/pages/home_page';
+import {
+  BrowserRouter,
+  Routes,
+  Route,
+} from "react-router-dom";
+import Navigation from './containers/navigation';
+import { DataContext } from './hooks/ContextProvider';
+import { useState } from 'react'
+import DESTINATION from './containers/pages/destination_page';
+import Crew from './containers/pages/crew_page';
+import BurgerNav from './containers/burger_nav_bar';
+import TECHNOLOGY from './containers/pages/technology_page';
 
 function App() {
+  const [isBurger_BtnActive, setBurger_BtnActive] = useState(false);
+  const [DataIndex, setDataIndex] = useState(0);
+
+
+  const ContextData = {
+    isBurger_BtnActive,
+    setBurger_BtnActive,
+    DataIndex,
+    setDataIndex
+  }
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <BrowserRouter>
+      <DataContext.Provider value={ContextData}>
+        <section className="App">
+          <BurgerNav />
+          <Navigation />
+          <Routes>
+            <Route path='/' element={<Home />} />
+            <Route path='/DESTINATION' element={<DESTINATION />} />
+            <Route path='/CREW' element={<Crew />} />
+            <Route path='/TECHNOLOGY' element={<TECHNOLOGY />} />
+          </Routes>
+        </section>
+      </DataContext.Provider>
+    </BrowserRouter>
+
   );
 }
 
