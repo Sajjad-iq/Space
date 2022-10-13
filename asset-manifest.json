@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/travel-to-space/static/css/main.72334fce.css",
+    "main.css": "/travel-to-space/static/css/main.3900c278.css",
     "main.js": "/travel-to-space/static/js/main.2a1c1982.js",
     "static/media/image-victor-glover.png": "/travel-to-space/static/media/image-victor-glover.8a9a5424588b73ec61c2.png",
     "static/media/image-anousheh-ansari.png": "/travel-to-space/static/media/image-anousheh-ansari.2d647128496ddc638acd.png",
@@ -24,11 +24,11 @@
     "static/media/image-launch-vehicle-landscape.jpg": "/travel-to-space/static/media/image-launch-vehicle-landscape.4281a59ff7186488fe6a.jpg",
     "index.html": "/travel-to-space/index.html",
     "static/media/logo.svg": "/travel-to-space/static/media/logo.565f7f2c0534403f11b71994f4311210.svg",
-    "main.72334fce.css.map": "/travel-to-space/static/css/main.72334fce.css.map",
+    "main.3900c278.css.map": "/travel-to-space/static/css/main.3900c278.css.map",
     "main.2a1c1982.js.map": "/travel-to-space/static/js/main.2a1c1982.js.map"
   },
   "entrypoints": [
-    "static/css/main.72334fce.css",
+    "static/css/main.3900c278.css",
     "static/js/main.2a1c1982.js"
   ]
 }
