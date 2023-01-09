@@ -188,7 +188,7 @@ body {
 .home {
   width: 100%;
   height: 100%;
-  background-image: url("~/src/assets/home/background-home-desktop.jpg");
+  background-image: url("~/src/assets/Images/home/background-home-desktop.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -205,7 +205,7 @@ body {
 .destination {
   width: 100%;
   height: 100%;
-  background-image: url("~/src/assets/destination/background-destination-desktop.jpg");
+  background-image: url("~/src/assets/Images/destination/background-destination-desktop.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -287,7 +287,7 @@ body {
 .crew-page {
   width: 100%;
   height: 100%;
-  background-image: url("~/src/assets/crew/background-crew-desktop.jpg");
+  background-image: url("~/src/assets/Images/crew/background-crew-desktop.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -364,7 +364,7 @@ body {
 .technology-page {
   width: 100%;
   height: 100%;
-  background-image: url("~/src/assets/technology/background-technology-desktop.jpg");
+  background-image: url("~/src/assets/Images/technology/background-technology-desktop.jpg");
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -380,7 +380,7 @@ body {
 
 .technology-wrapper .image-side {
   width: 45%;
-  height: 100%;
+  height: 80%;
   display: flex;
   justify-content: center;
   align-items: flex-end;
@@ -391,7 +391,7 @@ body {
 }
 
 .technology-wrapper .content-side {
-  height: 80%;
+  height: 90%;
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -435,254 +435,230 @@ body {
   justify-content: space-between;
 }
 .technology-wrapper .content-side .technology-body .page-count .page-count-button {
-  width: 85px;
-  height: 85px;
+  width: 75px;
+  height: 75px;
   background: none;
   color: white;
   border: 1px solid gray;
   border-radius: 50%;
-  font-size: 35px;
+  font-size: 30px;
   font-family: "Bellefair", serif;
 }
 
 @media (min-width: 1919px) {
-  .App .Navigation .HR-line {
-    width: 35%;
-    height: 1px;
-  }
-  .App .Navigation .logo {
-    width: 60px;
-    height: 60px;
-    margin-left: 50px;
-  }
-  .App .Navigation .nav-list .container {
-    margin: 0 20px;
-  }
-  .App .Navigation .nav-list .container .Button {
-    height: 85px;
-    font-size: 17px;
-  }
-  .App .Navigation .nav-list .container .page-index {
-    font-size: 17px;
-  }
-}
-@media (min-width: 1439px) and (max-width: 1919px) {
-  .App .Navigation .HR-line {
-    width: 35%;
-    height: 1px;
-  }
-  .App .Navigation .logo {
-    width: 50px;
-    height: 50px;
-    margin-left: 50px;
-  }
-  .App .Navigation .nav-list .container {
-    margin: 0 15px;
-  }
-  .App .Navigation .nav-list .container .Button {
-    height: 75px;
-    font-size: 15px;
-  }
-  .App .Navigation .nav-list .container .page-index {
-    font-size: 15px;
-  }
-}
-@media (min-width: 767px) and (max-width: 1023px) {
-  .App .Navigation {
-    top: 0;
-    padding: 0 4%;
-  }
-  .App .Navigation .HR-line {
-    display: none;
-  }
-  .App .Navigation .logo {
-    width: 50px;
-    height: 50px;
-    margin: 0;
-    margin-top: 5%;
-  }
-}
-@media (min-width: 479px) and (max-width: 767px) {
-  .App .Navigation {
-    width: 100%;
-    top: 5%;
-    align-items: flex-start;
-    padding: 0 4%;
-  }
-  .App .Navigation .HR-line {
-    display: none;
-  }
-  .App .Navigation .logo {
-    width: 40px;
-    height: 40px;
-    margin: 0;
-  }
-  .App .Navigation .nav-list {
-    display: none;
-  }
-  .App .Navigation .burger-btn {
-    display: block;
-  }
-}
-@media (min-width: 319px) and (max-width: 479px) {
-  .App .Navigation {
-    width: 100%;
-    top: 5%;
-    align-items: flex-start;
-    padding: 0 4%;
-  }
-  .App .Navigation .HR-line {
-    display: none;
-  }
-  .App .Navigation .logo {
-    width: 40px;
-    height: 40px;
-    margin: 0;
-  }
-  .App .Navigation .nav-list {
-    display: none;
-  }
-  .App .Navigation .burger-btn {
-    display: block;
-  }
-}
-
-@media (min-width: 1919px) {
-  .App .home .article-component .presentation {
-    font-size: 40px;
-  }
-  .App .home .article-component .header {
-    font-size: 225px;
-  }
-  .App .home .article-component .description {
-    font-size: 40px;
-    width: 650px;
-    line-height: 50px;
-  }
-  .App .home .Button {
-    height: 400px;
-    width: 400px;
-    font-size: 65px;
-  }
-}
-@media (min-width: 1439px) and (max-width: 1919px) {
-  .App .home .article-component .presentation {
-    font-size: 28px;
-  }
-  .App .home .article-component .header {
-    font-size: 150px;
-  }
-  .App .home .article-component .description {
-    font-size: 28px;
-    width: 475px;
-    line-height: 40px;
-  }
-  .App .home .Button {
-    height: 300px;
-    width: 300px;
-    font-size: 45px;
-  }
-}
-@media (min-width: 767px) and (max-width: 1023px) {
-  .App .home {
-    background-image: url("~/src/assets/home/background-home-tablet.jpg");
-  }
-  .App .home .home-wrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .App .home .home-wrapper .article-component {
-    height: 45%;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-  }
-  .App .home .home-wrapper .article-component .presentation {
-    font-size: 28px;
-  }
-  .App .home .home-wrapper .article-component .header {
-    font-size: 150px;
-  }
-  .App .home .home-wrapper .article-component .description {
-    font-size: 28px;
-    width: 475px;
-    line-height: 40px;
-  }
-  .App .home .home-wrapper .Button {
-    height: 300px;
-    width: 300px;
-    font-size: 45px;
-  }
-}
-@media (min-width: 479px) and (max-width: 767px) {
-  .App .home {
-    background-image: url("~/src/assets/home/background-home-mobile.jpg");
-  }
-  .App .home .home-wrapper {
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-  }
-  .App .home .home-wrapper .article-component {
-    height: 55%;
-    width: 100%;
-    align-items: center;
-    justify-content: space-around;
-    text-align: center;
-  }
-  .App .home .home-wrapper .article-component .presentation {
-    font-size: 25px;
-  }
-  .App .home .home-wrapper .article-component .header {
-    font-size: 100px;
-  }
-  .App .home .home-wrapper .article-component .description {
-    font-size: 18px;
-    width: 300px;
-    line-height: 25px;
-  }
-  .App .home .home-wrapper .Button {
-    height: 200px;
-    width: 200px;
+  .crew-page .content-side .header {
     font-size: 30px;
   }
-}
-@media (min-width: 319px) and (max-width: 479px) {
-  .App .home {
-    background-image: url("~/src/assets/home/background-home-mobile.jpg");
+  .crew-page .content-side .header .stage {
+    margin-right: 25px;
   }
-  .App .home .home-wrapper {
+  .crew-page .content-side .article-component {
+    height: 40%;
+    width: 100%;
+  }
+  .crew-page .content-side .article-component .presentation {
+    font-size: 40px;
+  }
+  .crew-page .content-side .article-component .header {
+    font-size: 70px;
+  }
+  .crew-page .content-side .article-component .description {
+    font-size: 30px;
+    line-height: 40px;
+  }
+  .crew-page .content-side .page-index-buttons {
+    width: 175px;
+  }
+  .crew-page .content-side .page-index-buttons .index-button {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 1439px) and (max-width: 1919px) {
+  .crew-page .content-side .header {
+    font-size: 25px;
+  }
+  .crew-page .content-side .header .stage {
+    margin-right: 20px;
+  }
+  .crew-page .content-side .article-component {
+    height: 45%;
+    width: 100%;
+  }
+  .crew-page .content-side .article-component .presentation {
+    font-size: 30px;
+  }
+  .crew-page .content-side .article-component .header {
+    font-size: 50px;
+  }
+  .crew-page .content-side .article-component .description {
+    font-size: 25px;
+    line-height: 35px;
+  }
+  .crew-page .content-side .page-index-buttons {
+    width: 150px;
+  }
+  .crew-page .content-side .page-index-buttons .index-button {
+    width: 20px;
+    height: 20px;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1200px) {
+  .crew-page .content-side .header {
+    font-size: 20px;
+  }
+  .crew-page .content-side .header .stage {
+    margin-right: 18px;
+  }
+  .crew-page .content-side .article-component {
+    height: 45%;
+    width: 100%;
+  }
+  .crew-page .content-side .article-component .presentation {
+    font-size: 22px;
+  }
+  .crew-page .content-side .article-component .header {
+    font-size: 40px;
+  }
+  .crew-page .content-side .article-component .description {
+    font-size: 20px;
+    line-height: 25px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .crew-page .crew-wrapper {
+    height: 90%;
     flex-direction: column;
-    align-items: center;
     justify-content: space-around;
   }
-  .App .home .home-wrapper .article-component {
+  .crew-page .crew-wrapper .content-side {
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    text-align: center;
+  }
+  .crew-page .crew-wrapper .content-side .header {
+    font-size: 20px;
+  }
+  .crew-page .crew-wrapper .content-side .header .stage {
+    margin-right: 18px;
+  }
+  .crew-page .crew-wrapper .content-side .article-component {
     height: 50%;
     width: 100%;
     align-items: center;
-    justify-content: space-around;
     text-align: center;
   }
-  .App .home .home-wrapper .article-component .presentation {
-    font-size: 20px;
+  .crew-page .crew-wrapper .content-side .article-component .presentation {
+    font-size: 22px;
   }
-  .App .home .home-wrapper .article-component .header {
-    font-size: 85px;
+  .crew-page .crew-wrapper .content-side .article-component .header {
+    font-size: 40px;
   }
-  .App .home .home-wrapper .article-component .description {
-    font-size: 18px;
-    width: 300px;
-    line-height: 25px;
+  .crew-page .crew-wrapper .content-side .article-component .description {
+    font-size: 22px;
+    line-height: 30px;
   }
-  .App .home .home-wrapper .Button {
-    height: 185px;
-    width: 185px;
-    font-size: 30px;
+  .crew-page .crew-wrapper .image-side {
+    width: 100%;
+    height: 60%;
+    align-items: center;
   }
 }
-
+@media (min-width: 479px) and (max-width: 767px) {
+  .crew-page .crew-wrapper {
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .crew-page .crew-wrapper .content-side {
+    width: 100%;
+    height: 40%;
+    align-items: center;
+    text-align: center;
+  }
+  .crew-page .crew-wrapper .content-side .header {
+    font-size: 18px;
+  }
+  .crew-page .crew-wrapper .content-side .header .stage {
+    margin-right: 18px;
+  }
+  .crew-page .crew-wrapper .content-side .article-component {
+    height: 55%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .crew-page .crew-wrapper .content-side .article-component .presentation {
+    font-size: 18px;
+  }
+  .crew-page .crew-wrapper .content-side .article-component .header {
+    font-size: 30px;
+  }
+  .crew-page .crew-wrapper .content-side .article-component .description {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .crew-page .crew-wrapper .content-side .page-index-buttons {
+    width: 100px;
+  }
+  .crew-page .crew-wrapper .content-side .page-index-buttons .index-button {
+    width: 15px;
+    height: 15px;
+  }
+  .crew-page .crew-wrapper .image-side {
+    width: 100%;
+    height: 60%;
+    align-items: center;
+  }
+}
+@media (min-width: 319px) and (max-width: 479px) {
+  .crew-page .crew-wrapper {
+    height: 90%;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+  .crew-page .crew-wrapper .content-side {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+    text-align: center;
+  }
+  .crew-page .crew-wrapper .content-side .header {
+    font-size: 18px;
+  }
+  .crew-page .crew-wrapper .content-side .header .stage {
+    margin-right: 18px;
+  }
+  .crew-page .crew-wrapper .content-side .article-component {
+    height: 45%;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+  }
+  .crew-page .crew-wrapper .content-side .article-component .presentation {
+    font-size: 16px;
+  }
+  .crew-page .crew-wrapper .content-side .article-component .header {
+    font-size: 25px;
+  }
+  .crew-page .crew-wrapper .content-side .article-component .description {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  .crew-page .crew-wrapper .content-side .page-index-buttons {
+    width: 100px;
+  }
+  .crew-page .crew-wrapper .content-side .page-index-buttons .index-button {
+    width: 15px;
+    height: 15px;
+  }
+  .crew-page .crew-wrapper .image-side {
+    width: 100%;
+    height: 50%;
+    align-items: center;
+  }
+}
 @media (min-width: 1919px) {
   .destination .img-side .header {
     font-size: 30px;
@@ -995,219 +971,141 @@ body {
   }
 }
 @media (min-width: 1919px) {
-  .crew-page .content-side .header {
-    font-size: 30px;
-  }
-  .crew-page .content-side .header .stage {
-    margin-right: 25px;
-  }
-  .crew-page .content-side .article-component {
-    height: 40%;
-    width: 100%;
-  }
-  .crew-page .content-side .article-component .presentation {
+  .App .home .article-component .presentation {
     font-size: 40px;
   }
-  .crew-page .content-side .article-component .header {
-    font-size: 70px;
+  .App .home .article-component .header {
+    font-size: 225px;
   }
-  .crew-page .content-side .article-component .description {
-    font-size: 30px;
-    line-height: 40px;
+  .App .home .article-component .description {
+    font-size: 40px;
+    width: 650px;
+    line-height: 50px;
   }
-  .crew-page .content-side .page-index-buttons {
-    width: 175px;
-  }
-  .crew-page .content-side .page-index-buttons .index-button {
-    width: 20px;
-    height: 20px;
+  .App .home .Button {
+    height: 400px;
+    width: 400px;
+    font-size: 65px;
   }
 }
 @media (min-width: 1439px) and (max-width: 1919px) {
-  .crew-page .content-side .header {
-    font-size: 25px;
+  .App .home .article-component .presentation {
+    font-size: 28px;
   }
-  .crew-page .content-side .header .stage {
-    margin-right: 20px;
+  .App .home .article-component .header {
+    font-size: 150px;
   }
-  .crew-page .content-side .article-component {
-    height: 45%;
-    width: 100%;
+  .App .home .article-component .description {
+    font-size: 28px;
+    width: 475px;
+    line-height: 40px;
   }
-  .crew-page .content-side .article-component .presentation {
-    font-size: 30px;
-  }
-  .crew-page .content-side .article-component .header {
-    font-size: 50px;
-  }
-  .crew-page .content-side .article-component .description {
-    font-size: 25px;
-    line-height: 35px;
-  }
-  .crew-page .content-side .page-index-buttons {
-    width: 150px;
-  }
-  .crew-page .content-side .page-index-buttons .index-button {
-    width: 20px;
-    height: 20px;
-  }
-}
-@media (min-width: 1023px) and (max-width: 1200px) {
-  .crew-page .content-side .header {
-    font-size: 20px;
-  }
-  .crew-page .content-side .header .stage {
-    margin-right: 18px;
-  }
-  .crew-page .content-side .article-component {
-    height: 45%;
-    width: 100%;
-  }
-  .crew-page .content-side .article-component .presentation {
-    font-size: 22px;
-  }
-  .crew-page .content-side .article-component .header {
-    font-size: 40px;
-  }
-  .crew-page .content-side .article-component .description {
-    font-size: 20px;
-    line-height: 25px;
+  .App .home .Button {
+    height: 300px;
+    width: 300px;
+    font-size: 45px;
   }
 }
 @media (min-width: 767px) and (max-width: 1023px) {
-  .crew-page .crew-wrapper {
-    height: 90%;
+  .App .home {
+    background-image: url("~/src/assets/Images/home/background-home-tablet.jpg");
+  }
+  .App .home .home-wrapper {
     flex-direction: column;
+    align-items: center;
     justify-content: space-around;
   }
-  .crew-page .crew-wrapper .content-side {
-    width: 100%;
-    height: 40%;
-    align-items: center;
-    text-align: center;
-  }
-  .crew-page .crew-wrapper .content-side .header {
-    font-size: 20px;
-  }
-  .crew-page .crew-wrapper .content-side .header .stage {
-    margin-right: 18px;
-  }
-  .crew-page .crew-wrapper .content-side .article-component {
-    height: 50%;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-  }
-  .crew-page .crew-wrapper .content-side .article-component .presentation {
-    font-size: 22px;
-  }
-  .crew-page .crew-wrapper .content-side .article-component .header {
-    font-size: 40px;
-  }
-  .crew-page .crew-wrapper .content-side .article-component .description {
-    font-size: 22px;
-    line-height: 30px;
-  }
-  .crew-page .crew-wrapper .image-side {
-    width: 100%;
-    height: 60%;
-    align-items: center;
-  }
-}
-@media (min-width: 479px) and (max-width: 767px) {
-  .crew-page .crew-wrapper {
-    height: 90%;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .crew-page .crew-wrapper .content-side {
-    width: 100%;
-    height: 40%;
-    align-items: center;
-    text-align: center;
-  }
-  .crew-page .crew-wrapper .content-side .header {
-    font-size: 18px;
-  }
-  .crew-page .crew-wrapper .content-side .header .stage {
-    margin-right: 18px;
-  }
-  .crew-page .crew-wrapper .content-side .article-component {
-    height: 55%;
-    width: 100%;
-    align-items: center;
-    text-align: center;
-  }
-  .crew-page .crew-wrapper .content-side .article-component .presentation {
-    font-size: 18px;
-  }
-  .crew-page .crew-wrapper .content-side .article-component .header {
-    font-size: 30px;
-  }
-  .crew-page .crew-wrapper .content-side .article-component .description {
-    font-size: 16px;
-    line-height: 25px;
-  }
-  .crew-page .crew-wrapper .content-side .page-index-buttons {
-    width: 100px;
-  }
-  .crew-page .crew-wrapper .content-side .page-index-buttons .index-button {
-    width: 15px;
-    height: 15px;
-  }
-  .crew-page .crew-wrapper .image-side {
-    width: 100%;
-    height: 60%;
-    align-items: center;
-  }
-}
-@media (min-width: 319px) and (max-width: 479px) {
-  .crew-page .crew-wrapper {
-    height: 90%;
-    flex-direction: column;
-    justify-content: space-around;
-  }
-  .crew-page .crew-wrapper .content-side {
-    width: 100%;
-    height: 50%;
-    align-items: center;
-    text-align: center;
-  }
-  .crew-page .crew-wrapper .content-side .header {
-    font-size: 18px;
-  }
-  .crew-page .crew-wrapper .content-side .header .stage {
-    margin-right: 18px;
-  }
-  .crew-page .crew-wrapper .content-side .article-component {
+  .App .home .home-wrapper .article-component {
     height: 45%;
     width: 100%;
     align-items: center;
+    justify-content: space-around;
     text-align: center;
   }
-  .crew-page .crew-wrapper .content-side .article-component .presentation {
-    font-size: 16px;
+  .App .home .home-wrapper .article-component .presentation {
+    font-size: 28px;
   }
-  .crew-page .crew-wrapper .content-side .article-component .header {
-    font-size: 25px;
+  .App .home .home-wrapper .article-component .header {
+    font-size: 150px;
   }
-  .crew-page .crew-wrapper .content-side .article-component .description {
-    font-size: 14px;
-    line-height: 20px;
+  .App .home .home-wrapper .article-component .description {
+    font-size: 28px;
+    width: 475px;
+    line-height: 40px;
   }
-  .crew-page .crew-wrapper .content-side .page-index-buttons {
-    width: 100px;
-  }
-  .crew-page .crew-wrapper .content-side .page-index-buttons .index-button {
-    width: 15px;
-    height: 15px;
-  }
-  .crew-page .crew-wrapper .image-side {
-    width: 100%;
-    height: 50%;
-    align-items: center;
+  .App .home .home-wrapper .Button {
+    height: 300px;
+    width: 300px;
+    font-size: 45px;
   }
 }
+@media (min-width: 479px) and (max-width: 767px) {
+  .App .home {
+    background-image: url("~/src/assets/Images/home/background-home-mobile.jpg");
+  }
+  .App .home .home-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .App .home .home-wrapper .article-component {
+    height: 55%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .App .home .home-wrapper .article-component .presentation {
+    font-size: 25px;
+  }
+  .App .home .home-wrapper .article-component .header {
+    font-size: 100px;
+  }
+  .App .home .home-wrapper .article-component .description {
+    font-size: 18px;
+    width: 300px;
+    line-height: 25px;
+  }
+  .App .home .home-wrapper .Button {
+    height: 200px;
+    width: 200px;
+    font-size: 30px;
+  }
+}
+@media (min-width: 319px) and (max-width: 479px) {
+  .App .home {
+    background-image: url("~/src/assets/Images/home/background-home-mobile.jpg");
+  }
+  .App .home .home-wrapper {
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .App .home .home-wrapper .article-component {
+    height: 50%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+  }
+  .App .home .home-wrapper .article-component .presentation {
+    font-size: 20px;
+  }
+  .App .home .home-wrapper .article-component .header {
+    font-size: 85px;
+  }
+  .App .home .home-wrapper .article-component .description {
+    font-size: 18px;
+    width: 300px;
+    line-height: 25px;
+  }
+  .App .home .home-wrapper .Button {
+    height: 185px;
+    width: 185px;
+    font-size: 30px;
+  }
+}
+
 @media (min-width: 1919px) {
   .technology-wrapper .content-side {
     height: 85%;
@@ -1462,5 +1360,106 @@ body {
   .technology-page .technology-wrapper .image-side {
     width: 100%;
     height: 35%;
+  }
+}
+@media (min-width: 1919px) {
+  .App .Navigation .HR-line {
+    width: 35%;
+    height: 1px;
+  }
+  .App .Navigation .logo {
+    width: 60px;
+    height: 60px;
+    margin-left: 50px;
+  }
+  .App .Navigation .nav-list .container {
+    margin: 0 20px;
+  }
+  .App .Navigation .nav-list .container .Button {
+    height: 85px;
+    font-size: 17px;
+  }
+  .App .Navigation .nav-list .container .page-index {
+    font-size: 17px;
+  }
+}
+@media (min-width: 1439px) and (max-width: 1919px) {
+  .App .Navigation .HR-line {
+    width: 35%;
+    height: 1px;
+  }
+  .App .Navigation .logo {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+  }
+  .App .Navigation .nav-list .container {
+    margin: 0 15px;
+  }
+  .App .Navigation .nav-list .container .Button {
+    height: 75px;
+    font-size: 15px;
+  }
+  .App .Navigation .nav-list .container .page-index {
+    font-size: 15px;
+  }
+}
+@media (min-width: 767px) and (max-width: 1023px) {
+  .App .Navigation {
+    top: 0;
+    padding: 0 4%;
+  }
+  .App .Navigation .HR-line {
+    display: none;
+  }
+  .App .Navigation .logo {
+    width: 50px;
+    height: 50px;
+    margin: 0;
+    margin-top: 5%;
+  }
+}
+@media (min-width: 479px) and (max-width: 767px) {
+  .App .Navigation {
+    width: 100%;
+    top: 5%;
+    align-items: flex-start;
+    padding: 0 4%;
+  }
+  .App .Navigation .HR-line {
+    display: none;
+  }
+  .App .Navigation .logo {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+  .App .Navigation .nav-list {
+    display: none;
+  }
+  .App .Navigation .burger-btn {
+    display: block;
+  }
+}
+@media (min-width: 319px) and (max-width: 479px) {
+  .App .Navigation {
+    width: 100%;
+    top: 5%;
+    align-items: flex-start;
+    padding: 0 4%;
+  }
+  .App .Navigation .HR-line {
+    display: none;
+  }
+  .App .Navigation .logo {
+    width: 40px;
+    height: 40px;
+    margin: 0;
+  }
+  .App .Navigation .nav-list {
+    display: none;
+  }
+  .App .Navigation .burger-btn {
+    display: block;
   }
 }/*# sourceMappingURL=index.css.map */

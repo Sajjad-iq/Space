@@ -1,16 +1,16 @@
-import Home from './containers/pages/home_page';
+import Home from './pages/home_page';
 import {
   BrowserRouter,
   Routes,
   Route,
 } from "react-router-dom";
-import Navigation from './containers/navigation';
-import { DataContext } from './hooks/ContextProvider';
+import Navigation from './layout/Nav';
+import { DataContext } from './Context/ContextProvider';
 import { useState } from 'react'
-import DESTINATION from './containers/pages/destination_page';
-import Crew from './containers/pages/crew_page';
-import BurgerNav from './containers/burger_nav_bar';
-import TECHNOLOGY from './containers/pages/technology_page';
+import DESTINATION from './pages/destination_page';
+import Crew from './pages/crew_page';
+import BurgerNav from './layout/Mobile_Nav';
+import TECHNOLOGY from './pages/technology_page';
 
 function App() {
   const [isBurger_BtnActive, setBurger_BtnActive] = useState(false);
@@ -22,9 +22,8 @@ function App() {
     setBurger_BtnActive,
     DataIndex,
     setDataIndex
-
-
   }
+
   return (
     <BrowserRouter>
       <DataContext.Provider value={ContextData}>

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import './Button.css'
+import '../../../assets/Styles/components/common/Button.css';
 
 type StatusProps = {
     btnName: string,

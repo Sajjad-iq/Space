@@ -1,4 +1,5 @@
-import './Article.css'
+import '../../../assets/Styles/components/common/Article.css';
+
 type StatusProps = {
     header: string,
     presentation: string,
